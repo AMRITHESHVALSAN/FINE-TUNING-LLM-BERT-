@@ -1,2 +1,2 @@
-# FINE-TUNING-LLM-BERT-
+# FINE TUNING LLM USING LoRA
 we will use the Hugging Face ecosystem to fine-tune a language model to classify text as ‘positive’ or ‘negative’. Here, we fine-tune distilbert-base-uncased, a ~70M parameter model based on BERT. Since this base model was trained to do language modeling and not classification, we employ transfer learning to replace the base model head with a classification head. Additionally, we use LoRA to fine-tune the model efficiently enough that it can run on my system(HP intel core i5) in a reasonable amount of time (~20 min).
